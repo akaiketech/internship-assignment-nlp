@@ -1,0 +1,17 @@
+Initially we imported all the necessary libraries like pypdf2, openai, transformers, nltk, sent_tokenize. 
+We extracted text from pdfs using pypdf2. 
+We shortened the text we have using nltk tools.
+Generate mca_questions: GPT-3.5 has been used to generate multiple-choice questions by providing it with a prompt, such as a paragraph or a specific context, and then using the model's completion capabilities to generate questions based on that prompt.
+Generate Options: The model has also been used to generate options for each multiple-choice question by extending the prompt with the question and using the completion capabilities to generate a list of options.
+Shuffle Options: ChatGPT has been employed to shuffle the generated options randomly to ensure that the order of options is different for each question.
+Select Correct Answers: The model has been utilized to randomly select a specified number of correct answers from the generated options for each question.
+By leveraging the language generation capabilities of ChatGPT, we can automate the process of generating multiple-choice questions based on a given prompt. This helps in saving time and effort by offloading the task of question generation to the model, which can quickly generate a variety of questions based on the provided context.
+
+
+
+
+
+
+
+         
+         
