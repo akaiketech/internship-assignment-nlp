@@ -1,0 +1,1 @@
+i have updated the script.py file and added MCQs from the dataset folder where few chapters are given, with the help of those chapter i made the script.py file
